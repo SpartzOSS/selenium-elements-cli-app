@@ -31,6 +31,8 @@ Usage:
 - Then input the element path
 - It will either error out or you will see a certain number of elements selected
 - Then you can run commands against the element object such as (text, location, size) and it will awesome print the results
+- Input "next" when you want to try another element(s)
+- Repeat until you are done
 
 Element Command Usage:
 
