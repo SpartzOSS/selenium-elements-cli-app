@@ -20,6 +20,7 @@ Troubleshooting:
 
 Usage:
 - Run 'ruby main.rb'
+- At any time (exit, quit) input will cause the driver to quit and the CLI app to quit
 - App will ask whether you want a Selenium Browser or Appium driver
 - Once you have selected either you will have to choose which browser (Chrome, ...) or which device platform (Android, iOS)
 - For apps, you will have to enter the full app path
