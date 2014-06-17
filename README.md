@@ -22,7 +22,7 @@ Troubleshooting:
 Appium Server:
 - You will need to start your own Appium server on the default port 4723
 - Preferably you should use the GUI app provided at http://appium.io/
-- This will allow you to use the inspector which allows you to view elements and paths
+- This will allow you to use the inspector which shows the individual elements and paths
 
 Usage:
 - Run 'ruby main.rb'
