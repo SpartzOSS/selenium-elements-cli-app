@@ -7,7 +7,7 @@ I made this small CLI app to help me evaluate (CSS | xPath) paths I was using be
 more substantial.  With this program you can evaluate paths without having issues with exceptions being thrown.  Will
 keep driver alive until you are done using it.
 
-Once an element or mutliple elements have been found, the CLI app will tell you how many it has found and then you can
+Once an element or multiple elements have been found, the CLI app will tell you how many it has found and then you can
 run operations against each element.
 
 Installation:
@@ -18,6 +18,11 @@ Installation:
 Troubleshooting:
 - Make sure to have Selenium Java/Appium set in PATH
 - Close console in browser before trying to access/use an element, will error out if console is open in the browser the driver is trying to use
+
+Appium Server:
+- You will need to start your own Appium server on the default port 4723
+- Preferably you should use the GUI app provided at http://appium.io/
+- This will allow you to use the inspector which allows you to view elements and paths
 
 Usage:
 - Run 'ruby main.rb'
