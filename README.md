@@ -36,4 +36,5 @@ Usage:
 
 Element Command Usage:
 
+You can enter in methods available on the Element object by typing in those methods, ie. click, attribute('href'), text
 Very simple implementation: ap eval("element.#{evaluation_input}"), if that helps make some sense of it
