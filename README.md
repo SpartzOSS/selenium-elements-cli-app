@@ -17,7 +17,7 @@ Installation:
 
 Troubleshooting:
 - Make sure to have Selenium Java/Appium set in PATH
-- Close console in browser before trying to access/use an element, will error out if console is open in the browser the driver is trying to use
+- Close console in browser before trying to access/use an element in the CLI app, will error out if console is open in the browser the driver is trying to use
 
 Appium Server:
 - You will need to start your own Appium server on the default port 4723
