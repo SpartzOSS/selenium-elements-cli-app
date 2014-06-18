@@ -4,7 +4,7 @@ selenium-elements-cli-app
 Small Ruby command line app for finding and working with Selenium/Appium elements
 
 I made this small CLI app to help me evaluate (CSS | xPath) paths I was using before inputting them into something
-more substantial.  With this program you can evaluate paths without having issues with exceptions being thrown.  Will
+more substantial.  With this program you can evaluate selectors without having issues with exceptions being thrown.  The app will
 keep driver alive until you are done using it.
 
 Once an element or multiple elements have been found, the CLI app will tell you how many it has found and then you can
