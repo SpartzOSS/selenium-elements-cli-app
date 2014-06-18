@@ -184,12 +184,15 @@ begin
           break
         end
 
+        evaluation_input = input.gsub(/\s*$/, '')
+
         puts "Evaluating and awesome printing the return!".colorize(:green)
+        code_string = "Running code: ".colorize(:green)
+        puts code_string + "element.#{evaluation_input}".colorize(:red)
         puts '-----------------------------------------------------------'.colorize(:light_green)
 
         i = 1
         possible_elements.each_with_index { |element|
-          evaluation_input = input.gsub(/\s*$/, '')
           puts "Element #{i} (#{evaluation_input}):".colorize(:light_magenta)
 
           begin
